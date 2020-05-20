@@ -1,0 +1,13 @@
+[package]
+name = "rust_in_erlang"
+version = "0.1.0"
+authors = ["fycheung"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+
+[lib]
+name = "test_inf"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = ">=0.13.0"
